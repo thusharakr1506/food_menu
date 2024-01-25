@@ -1,0 +1,8 @@
+from foodbook.models import Food
+
+Food.objects.create(name="chicken biriyani",category="non vegetarian",cuisine="south indian",price="200")
+Food.objects.create(name="veg fried rice",category="vegetarian",cuisine="chinese",price="180")
+Food.objects.create(name="chicken fried rice",category="non vegetarian",cuisine="chinese",price="220")
+Food.objects.create(name="ghee rice",category="vegetarian",cuisine="south indian",price="150")
+Food.objects.create(name="chicken sausage pizza",category="non vegetarian",cuisine="italian",price="320")
+Food.objects.create(name="pasta",category="vegetarian",cuisine="italian",price="200")
